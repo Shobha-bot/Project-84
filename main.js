@@ -56,12 +56,12 @@ function aplhabetkey()
 }
 function numberkey()
 {
-	img_image="numKey.png";
+	img_image="numkey.png";
 	add();
 }
 function arrowkey()
 {
-	img_image="arkey.png";
+	img_image="arKey.png";
 	add();
 }
 function specialkey()
