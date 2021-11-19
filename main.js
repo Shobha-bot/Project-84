@@ -30,11 +30,11 @@ function my_keydown(e)
 			aplhabetkey();
 			document.getElementById("d1").innerHTML = "You pressed Alphabet Key";
 			console.log("alphabet key");
-		}else if ((keyPressed >= 48) || (keyPressed <= 57)) {
+		}else if ((keyPressed >= 48) && (keyPressed <= 57)) {
 			numberkey();
 			document.getElementById("d1").innerHTML = "You pressed Number Key";
 			console.log("Number key");
-		}else if ((keyPressed >= 37) || (keyPressed <= 40)) {
+		}else if ((keyPressed >= 37) && (keyPressed <= 40)) {
 			arrowkey();
 			document.getElementById("d1").innerHTML = "You pressed Arrow Key";
 			console.log("arrow key");
